@@ -12,7 +12,7 @@ Ducktionary is a user-friendly native desktop dictionary application made using 
 
 #### Create an Account to Store your Own Customizable Dictionary Settings and Words
 
-![screenshot-todo](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/register-login.gif?token=AINQE2ZJ73ENFKMSNFGSMX27Q27CS)
+![screenshot-register](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/register-login.gif?token=AINQE2ZJ73ENFKMSNFGSMX27Q27CS)
 
 #### Dashboard
 
@@ -54,10 +54,6 @@ Ducktionary is a user-friendly native desktop dictionary application made using 
 
 ![screenshot-help](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/ducktour-help.gif?token=AINQE2YTI5AQIP3FWF5YT3C7Q26WG)
 
-
-
-
-
 # Getting Started
 
 ### Installation (Windows):
@@ -76,9 +72,9 @@ Ducktionary is a user-friendly native desktop dictionary application made using 
 
 - [Design Manual](https://github.com/jamesadhitthana/Ducktionary/raw/main/Documentation/Design%20Manual/Design%20Manual%20Ducktionary.pdf)
 
-### Testing And Pitch Deck Presentation:
+### Pitch Deck Presentation and User Testing:
 
-- [Testing and Presentation](https://github.com/jamesadhitthana/Ducktionary/raw/main/Documentation/Ducktionary%20Final%20Presentation.pdf)
+- [Presentation and User Testing](https://github.com/jamesadhitthana/Ducktionary/raw/main/Documentation/Ducktionary%20Final%20Presentation.pdf)
 
 ### Documentation:
 
@@ -92,7 +88,7 @@ Ducktionary is a user-friendly native desktop dictionary application made using 
 
 - [Java](https://www.java.com/en/download/) - JavaScript
 - [JavaFX](https://openjfx.io/) - JavaFX
-- [JFoenix](http://www.jfoenix.com/) - Firebase
+- [JFoenix](http://www.jfoenix.com/) - JFoenix
 - [Oxford Word List with Definitions](https://gist.github.com/MarvinJWendt/f7b7aca357778972040234cae7985db8#file-oxford-word-list-with-definition-txt) - Oxford
 
 ## Authors
