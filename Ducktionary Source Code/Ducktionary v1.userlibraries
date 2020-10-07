@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="External jars">
+    <archive path="C:/Program Files/Java/External jars/jfoenix-8.0.7.jar" />
+    <archive path="C:/Program Files/Java/External jars/jfoenix-9.0.6.jar" />
+    <archive path="C:/Program Files/Java/External jars/controlsfx-8.40.14.jar" />
+  </library>
+</eclipse-userlibraries>
+

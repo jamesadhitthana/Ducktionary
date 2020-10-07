@@ -7,13 +7,17 @@
 
 # Introduction
 
-The Ducktionary is a native desktop dictionary application made using Java for PC. Nowadays, native desktop dictionary applications on PC have an outdated and confusing user interface. Therefore to combat that, Ducktionary is created with Material Design in mind utilizing JavaFX and JFoenix.
+Ducktionary is a user-friendly native desktop dictionary application made using Java for PC. Nowadays, native desktop dictionary applications on PC have an outdated and confusing user interface. Therefore to combat that, Ducktionary is created with Material Design in mind utilizing JavaFX and JFoenix.
 
 ### Features:
 
 ![todo-poster](afafafafafa)
 
 # Getting Started
+
+### Installation (Windows):
+
+- [Download Ducktionary Installer](todo.exe)
 
 ### User Manual:
 

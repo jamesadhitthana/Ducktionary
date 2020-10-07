@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="907.0" style="-fx-background-color: #fafafa;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HelpPageController">
+	<children>
+		<Label fx:id="labelBig" layoutX="307.0" layoutY="24.0" text="How can we help you?">
+			<font>
+				<Font name="System Bold" size="28.0" />
+			</font>
+		</Label>
+		<Label layoutX="292.0" layoutY="64.0" text="Click a button to find the solutions to your problems">
+			<font>
+				<Font size="14.0" />
+			</font>
+		</Label>
+		<JFXButton fx:id="help1Button" buttonType="RAISED" layoutX="54.0" layoutY="115.0" onAction="#helpDucktionaryTour" prefHeight="100.0" prefWidth="180.0" ripplerFill="#00c6ff" style="-fx-background-color: #ffffff;" text="Ducktionary Tour" wrapText="true">
+			<graphic>
+				<ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@images/help-tour.png" />
+					</image>
+				</ImageView>
+			</graphic>
+			<cursor>
+				<Cursor fx:constant="HAND" />
+			</cursor>
+         <tooltip>
+            <Tooltip text="Open the Ducktionary Tour" />
+         </tooltip>
+		</JFXButton>
+		<JFXButton fx:id="help2Button" buttonType="RAISED" layoutX="259.0" layoutY="115.0" onAction="#helpHowToSearch" prefHeight="100.0" prefWidth="180.0" ripplerFill="#00c6ff" style="-fx-background-color: #ffffff;" text="How To Search" wrapText="true">
+			<graphic>
+				<ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@images/help-how%20to%20search.png" />
+					</image>
+				</ImageView>
+			</graphic>
+			<cursor>
+				<Cursor fx:constant="HAND" />
+			</cursor>
+         <tooltip>
+            <Tooltip text="Open Search Tutorial" />
+         </tooltip>
+		</JFXButton>
+		<JFXButton fx:id="help3Button" buttonType="RAISED" layoutX="466.0" layoutY="115.0" onAction="#helpAddWord" prefHeight="100.0" prefWidth="180.0" ripplerFill="#00c6ff" style="-fx-background-color: #ffffff;" text="How To Add a New Word" wrapText="true">
+			<graphic>
+				<ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@images/help-add-word.png" />
+					</image>
+				</ImageView>
+			</graphic>
+			<cursor>
+				<Cursor fx:constant="HAND" />
+			</cursor>
+         <tooltip>
+            <Tooltip text="Opens How to Add a New Word Tutorial" />
+         </tooltip>
+		</JFXButton>
+		<JFXButton fx:id="help4Button" buttonType="RAISED" layoutX="673.0" layoutY="116.0" onAction="#helpRemoveWord" prefHeight="100.0" prefWidth="180.0" ripplerFill="#00c6ff" style="-fx-background-color: #ffffff;" text="How To Remove a Word" wrapText="true">
+			<graphic>
+				<ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@images/help-remove-word.png" />
+					</image>
+				</ImageView>
+			</graphic>
+			<cursor>
+				<Cursor fx:constant="HAND" />
+			</cursor>
+         <tooltip>
+            <Tooltip text="Opens How to Remove a Word Tutorial" />
+         </tooltip>
+		</JFXButton>
+		<JFXButton fx:id="help5Button" buttonType="RAISED" layoutX="55.0" layoutY="243.0" onAction="#helpTipsAndTricks" prefHeight="100.0" prefWidth="180.0" ripplerFill="#00c6ff" style="-fx-background-color: #ffffff;" text="Tips and Tricks" wrapText="true">
+			<graphic>
+				<ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@images/help-tips%20and%20trick.png" />
+					</image>
+				</ImageView>
+			</graphic>
+			<cursor>
+				<Cursor fx:constant="HAND" />
+			</cursor>
+         <tooltip>
+            <Tooltip text="Opens Quick Tips and Tricks Page" />
+         </tooltip>
+		</JFXButton>
+		<JFXButton fx:id="help6Button" buttonType="RAISED" layoutX="260.0" layoutY="243.0" onAction="#helpKeyboardShortcut" prefHeight="100.0" prefWidth="180.0" ripplerFill="#00c6ff" style="-fx-background-color: #ffffff;" text="Keyboard Shortcuts" wrapText="true">
+			<graphic>
+				<ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@images/help-keyboard%20shortcuts.png" />
+					</image>
+				</ImageView>
+			</graphic>
+			<cursor>
+				<Cursor fx:constant="HAND" />
+			</cursor>
+         <tooltip>
+            <Tooltip text="Opens the Keyboard Shortcuts page" />
+         </tooltip>
+		</JFXButton>
+		<JFXButton fx:id="help7Button" buttonType="RAISED" layoutX="467.0" layoutY="243.0" onAction="#helpFAQ" prefHeight="100.0" prefWidth="180.0" ripplerFill="#00c6ff" style="-fx-background-color: #ffffff;" text="FAQ" wrapText="true">
+			<graphic>
+				<ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@images/help-faq.png" />
+					</image>
+				</ImageView>
+			</graphic>
+			<cursor>
+				<Cursor fx:constant="HAND" />
+			</cursor>
+         <tooltip>
+            <Tooltip text="Opens the Frequently Asked Questions Page" />
+         </tooltip>
+		</JFXButton>
+		<JFXButton fx:id="help8Button" buttonType="RAISED" layoutX="674.0" layoutY="243.0" onAction="#helpSignIn" prefHeight="100.0" prefWidth="180.0" ripplerFill="#00c6ff" style="-fx-background-color: #ffffff;" text="Sign-in Help" wrapText="true">
+			<graphic>
+				<ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@images/help-sign%20in%20help.png" />
+					</image>
+				</ImageView>
+			</graphic>
+			<cursor>
+				<Cursor fx:constant="HAND" />
+			</cursor>
+         <tooltip>
+            <Tooltip text="Opens the Sign-In/Register/Logout Tutorial" />
+         </tooltip>
+		</JFXButton>
+		<JFXButton fx:id="help9Button" buttonType="RAISED" layoutX="54.0" layoutY="375.0" onAction="#helpUserManual" prefHeight="100.0" prefWidth="180.0" ripplerFill="#00c6ff" style="-fx-background-color: #ffffff;" text="View User Manual" wrapText="true">
+			<graphic>
+				<ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@images/help-user%20manual.png" />
+					</image>
+				</ImageView>
+			</graphic>
+			<cursor>
+				<Cursor fx:constant="HAND" />
+			</cursor>
+         <tooltip>
+            <Tooltip text="Opens the User Manual Folder" />
+         </tooltip>
+		</JFXButton>
+		<JFXButton fx:id="help10Button" buttonType="RAISED" layoutX="260.0" layoutY="375.0" onAction="#helpProgramManual" prefHeight="100.0" prefWidth="180.0" ripplerFill="#00c6ff" style="-fx-background-color: #ffffff;" text="View Program Manual" wrapText="true">
+			<graphic>
+				<ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@images/help-system%20manual.png" />
+					</image>
+				</ImageView>
+			</graphic>
+			<cursor>
+				<Cursor fx:constant="HAND" />
+			</cursor>
+         <tooltip>
+            <Tooltip text="Opens the Program Manual Folder" />
+         </tooltip>
+		</JFXButton>
+		<JFXButton fx:id="help11Button" buttonType="RAISED" layoutX="466.0" layoutY="375.0" onAction="#helpManageSettings" prefHeight="100.0" prefWidth="180.0" ripplerFill="#00c6ff" style="-fx-background-color: #ffffff;" text="Manage Settings" wrapText="true">
+			<graphic>
+				<ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@images/help-manage%20settings.png" />
+					</image>
+				</ImageView>
+			</graphic>
+			<cursor>
+				<Cursor fx:constant="HAND" />
+			</cursor>
+         <tooltip>
+            <Tooltip text="Opens the Settings" />
+         </tooltip>
+		</JFXButton>
+		<JFXButton fx:id="help12Button" buttonType="RAISED" layoutX="673.0" layoutY="375.0" onAction="#helpAbout" prefHeight="100.0" prefWidth="180.0" ripplerFill="#00c6ff" style="-fx-background-color: #ffffff;" text="About" wrapText="true">
+			<graphic>
+				<ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@images/help-about.png" />
+					</image>
+				</ImageView>
+			</graphic>
+			<cursor>
+				<Cursor fx:constant="HAND" />
+			</cursor>
+         <tooltip>
+            <Tooltip text="Opens the About Page" />
+         </tooltip>
+		</JFXButton>
+	</children>
+</AnchorPane>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="RemoveWordPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="907.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RemoveWordPageController">
+   <children>
+      <Label fx:id="labelTitle" layoutX="395.0" layoutY="27.0" text="Remove Word">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelWord" layoutX="265.0" layoutY="176.0" text="Insert the word that you want to remove:">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="wordInput" focusColor="#dbd450" layoutX="86.0" layoutY="255.0" prefHeight="40.0" prefWidth="736.0" promptText="Insert word here...." unFocusColor="#bec770">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="confirmButton" layoutX="57.0" layoutY="384.0" onAction="#confirmAction" prefHeight="33.0" prefWidth="794.0" style="-fx-background-color: #00CBFF;" text="CONFIRM" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Confirms word deletion" />
+         </tooltip>
+      </JFXButton>
+      <JFXButton fx:id="cancelButton" layoutX="57.0" layoutY="433.0" onAction="#cancelAction" prefHeight="33.0" prefWidth="794.0" style="-fx-background-color: FF9E99;" text="BACK" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Goes back to the previous screen without any words removed" />
+         </tooltip>
+      </JFXButton>
+      <Line endX="74.79998779296875" layoutX="437.0" layoutY="56.0" startX="-42.4000244140625" />
+   </children>
+</AnchorPane>

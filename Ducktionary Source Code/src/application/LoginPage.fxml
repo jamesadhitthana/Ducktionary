@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="loginPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="907.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginPageController">
+	<children>
+		<JFXTextField fx:id="user" focusColor="#3ab7ff" layoutX="637.0" layoutY="273.0" prefHeight="41.0" prefWidth="230.0" promptText="Username">
+			<tooltip>
+				<Tooltip text="Fill in your username here!" />
+			</tooltip>
+		</JFXTextField>
+		<JFXPasswordField fx:id="password" focusColor="#46c79a" layoutX="637.0" layoutY="330.0" onAction="#makeLogin" prefHeight="41.0" prefWidth="230.0" promptText="Password">
+			<tooltip>
+				<Tooltip text="Fill in your password here!" />
+			</tooltip>
+		</JFXPasswordField>
+		<JFXButton fx:id="login" buttonType="RAISED" layoutX="607.0" layoutY="392.0" onAction="#makeLogin" prefHeight="41.0" prefWidth="259.0" ripplerFill="WHITE" style="-fx-background-color: #00cbff;" text="Login" textFill="WHITE">
+			<cursor>
+				<Cursor fx:constant="HAND" />
+			</cursor>
+			<tooltip>
+				<Tooltip text="Click here to login after your username and password is filled up." />
+			</tooltip>
+		</JFXButton>
+		<JFXButton fx:id="signup" layoutX="752.0" layoutY="451.0" onAction="#makeSignup" prefHeight="25.0" prefWidth="111.0" ripplerFill="WHITE" text="Create Account" textFill="#00cbff">
+			<font>
+				<Font name="System Bold" size="12.0" />
+			</font>
+			<cursor>
+				<Cursor fx:constant="HAND" />
+			</cursor>
+			<tooltip>
+				<Tooltip text="Not Registered? Click here to register and sign up an account." />
+			</tooltip>
+		</JFXButton>
+		<ImageView fx:id="imageBeard" fitHeight="225.0" fitWidth="266.0" layoutX="602.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@images/fondlin%20ducks%20LOGO%202.png" />
+			</image>
+		</ImageView>
+		<Label layoutX="624.0" layoutY="455.0" text="New to Ducktionary?" />
+		<ImageView fitHeight="30.0" fitWidth="30.0" layoutX="602.0" layoutY="287.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@images/baseline_account_circle_black_18dp.png" />
+			</image>
+		</ImageView>
+		<ImageView fitHeight="41.0" fitWidth="30.0" layoutX="602.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@images/baseline_lock_black_18dp.png" />
+			</image>
+		</ImageView>
+		<ImageView fitHeight="557.0" fitWidth="567.0" layoutY="-42.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@images/Ducktionary%20quack%20you%20up.jpg" />
+			</image>
+		</ImageView>
+	</children>
+</AnchorPane>

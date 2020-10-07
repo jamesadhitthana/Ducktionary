@@ -1,0 +1,19 @@
+
+/*Modify hamburger color to white */
+.jfx-hamburger StackPane {
+	-fx-background-color: white;
+}
+
+.split-pane-divider {
+   -fx-background-color: transparent;
+}
+#topBar {
+	-fx-background-color:  #00cbff;
+}
+
+.wizard {
+    -fx-tab-max-height: 0 ;
+} 
+.wizard .tab-header-area {
+    visibility: hidden ;
+}

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="464.0" prefWidth="513.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.helpmenu.HelpTipsAndTricksController">
+   <children>
+      <Label alignment="CENTER" layoutX="22.0" layoutY="14.0" prefHeight="45.0" prefWidth="477.0" text="Tips and Tricks" textFill="#00c4cc">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="22.0" layoutY="59.0" prefHeight="26.0" prefWidth="476.0" text="Increase your productivity by following these tips and tricks!" wrapText="true" />
+      <StackPane layoutX="23.0" layoutY="92.0" prefHeight="41.0" prefWidth="476.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e6f9fa" height="41.0" stroke="#00c4ce" strokeType="INSIDE" width="477.0" />
+            <Label prefWidth="416.0" text="Note: This application is in Beta, more features will be added in the future" />
+         </children>
+      </StackPane>
+      <Label layoutX="24.0" layoutY="151.0" text="Tips:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Line endX="368.5999755859375" layoutX="130.0" layoutY="174.0" startX="-106.20001220703125" stroke="#e5e5e5" />
+      <VBox layoutX="27.0" layoutY="183.0" prefWidth="476.0">
+         <children>
+            <HBox prefHeight="1.0" prefWidth="383.0">
+               <children>
+                  <StackPane prefHeight="1.0" prefWidth="0.0">
+                     <children>
+                        <Circle fill="#00c4cc" radius="11.0" stroke="#ffffff00" strokeType="INSIDE" />
+                        <Label text="1" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </StackPane>
+                  <Label prefHeight="19.0" prefWidth="451.0" text="Put your cursor anywhere on the screen to see tooltip hints">
+                     <padding>
+                        <Insets left="10.0" top="2.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="2.0" top="2.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="1.0" prefWidth="383.0">
+               <children>
+                  <StackPane prefHeight="1.0" prefWidth="0.0">
+                     <children>
+                        <Circle fill="#00c4cc" radius="11.0" stroke="#ffffff00" strokeType="INSIDE" />
+                        <Label text="2" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </StackPane>
+                  <Label prefWidth="361.0" text="You can quickly access the navigation drawer at any screen">
+                     <padding>
+                        <Insets left="10.0" top="2.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="2.0" top="2.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="1.0" prefWidth="383.0">
+               <children>
+                  <StackPane prefHeight="1.0" prefWidth="0.0">
+                     <children>
+                        <Circle fill="#00c4cc" radius="11.0" stroke="#ffffff00" strokeType="INSIDE" />
+                        <Label text="3" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </StackPane>
+                  <Label prefWidth="361.0" text="You can view your word of the day on the dashboard tab">
+                     <padding>
+                        <Insets left="10.0" top="2.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="2.0" top="2.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="1.0" prefWidth="383.0">
+               <children>
+                  <StackPane prefHeight="1.0" prefWidth="0.0">
+                     <children>
+                        <Circle fill="#00c4cc" radius="11.0" stroke="#ffffff00" strokeType="INSIDE" />
+                        <Label text="4" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </StackPane>
+                  <Label prefWidth="361.0" text="Confused? Open the Help tab to view video tutorials">
+                     <padding>
+                        <Insets left="10.0" top="2.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="2.0" top="2.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="1.0" prefWidth="383.0">
+               <children>
+                  <StackPane prefHeight="1.0" prefWidth="0.0">
+                     <children>
+                        <Circle fill="#00c4cc" radius="11.0" stroke="#ffffff00" strokeType="INSIDE" />
+                        <Label text="5" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </StackPane>
+                  <Label prefHeight="19.0" prefWidth="454.0" text="The &quot;At a Glance&quot; section on your dashboard shows your recent activity">
+                     <padding>
+                        <Insets left="10.0" top="2.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets bottom="2.0" top="2.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="1.0" prefWidth="383.0">
+               <children>
+                  <StackPane prefHeight="1.0" prefWidth="0.0">
+                     <children>
+                        <Circle fill="#00c4cc" radius="11.0" stroke="#ffffff00" strokeType="INSIDE" />
+                        <Label text="6" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </StackPane>
+                  <Label prefHeight="19.0" prefWidth="454.0" text="Need a tour of Ducktionary? View the help page to learn more">
+                     <padding>
+                        <Insets left="10.0" top="2.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets bottom="2.0" top="2.0" />
+               </padding>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="140.0" prefHeight="1.0" prefWidth="383.0">
+               <children>
+                  <StackPane prefHeight="1.0" prefWidth="0.0">
+                     <children>
+                        <Circle fill="#00c4cc" radius="11.0" stroke="#ffffff00" strokeType="INSIDE" />
+                        <Label text="7" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </StackPane>
+                  <Label prefHeight="19.0" prefWidth="454.0" text="Want to see the dictionary alphabetically? Open the Search tab!">
+                     <padding>
+                        <Insets left="10.0" top="2.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets bottom="2.0" top="2.0" />
+               </padding>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="166.0" prefHeight="1.0" prefWidth="383.0">
+               <children>
+                  <StackPane prefHeight="1.0" prefWidth="0.0">
+                     <children>
+                        <Circle fill="#00c4cc" radius="11.0" stroke="#ffffff00" strokeType="INSIDE" />
+                        <Label text="8" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </StackPane>
+                  <Label prefHeight="19.0" prefWidth="454.0" text="We have keyboard shortcuts! View the help page to learn more">
+                     <padding>
+                        <Insets left="10.0" top="2.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets bottom="2.0" top="2.0" />
+               </padding>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="192.0" prefHeight="1.0" prefWidth="383.0">
+               <children>
+                  <StackPane prefHeight="1.0" prefWidth="0.0">
+                     <children>
+                        <Circle fill="#00c4cc" radius="11.0" stroke="#ffffff00" strokeType="INSIDE" />
+                        <Label text="9" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </StackPane>
+                  <Label prefHeight="19.0" prefWidth="454.0" text="You can add your favorite word by clicking the button on a definition page">
+                     <padding>
+                        <Insets left="10.0" top="2.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets bottom="2.0" top="2.0" />
+               </padding>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="218.0" prefHeight="1.0" prefWidth="383.0">
+               <children>
+                  <StackPane prefHeight="1.0" prefWidth="0.0">
+                     <children>
+                        <Circle fill="#00c4cc" radius="11.0" stroke="#ffffff00" strokeType="INSIDE" />
+                        <Label text="10" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </StackPane>
+                  <Label prefHeight="19.0" prefWidth="454.0" text="Want to quickly go back to the dashboard? Click the Ducktionary logo on top">
+                     <padding>
+                        <Insets left="10.0" top="2.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets bottom="2.0" top="2.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+      <JFXButton fx:id="closeButton" buttonType="RAISED" layoutX="446.0" layoutY="14.0" onAction="#closeDuckTour" style="-fx-background-color: FF3900;" text="Close" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <tooltip>
+            <Tooltip text="Close the Help Window" />
+         </tooltip>
+      </JFXButton>
+   </children>
+</AnchorPane>
