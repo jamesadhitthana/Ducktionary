@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="AddWordPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="907.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddWordPageController">
+   <children>
+      <Label fx:id="labelTitle" layoutX="395.0" layoutY="27.0" text="Add New Word">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <JFXTextArea fx:id="defInput" layoutX="204.0" layoutY="284.0" prefHeight="120.0" prefWidth="647.0" promptText="Enter the definition here (ex: Feeling or showing pleasure or contentment.)" style="-fx-background-color: #fafafa;" unFocusColor="#0095ff">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXTextArea>
+      <JFXTextField fx:id="wordInput" focusColor="#dbd450" layoutX="204.0" layoutY="86.0" prefHeight="40.0" prefWidth="647.0" promptText="Enter Word Here (ex: Happy)" unFocusColor="#bec770">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="posInput" focusColor="#52ceff" layoutX="204.0" layoutY="148.0" prefHeight="40.0" prefWidth="647.0" promptText="Parts of Speech (ex: Adj, Adv, Conj, etc.)" unFocusColor="#2f98b0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="publishButton" layoutX="57.0" layoutY="455.0" onAction="#publishGo" prefHeight="33.0" prefWidth="794.0" style="-fx-background-color: #00CBFF;" text="PUBLISH" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="cancelButton" layoutX="738.0" layoutY="20.0" onAction="#cancelButtonGo" prefHeight="40.0" prefWidth="129.0" style="-fx-background-color: FF9E99;" text="Cancel Word" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="previewButton" layoutX="57.0" layoutY="415.0" onAction="#previewGo" prefHeight="33.0" prefWidth="794.0" style="-fx-background-color: #ededed;" text="PREVIEW">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="originInput" focusColor="#5fe166" layoutX="204.0" layoutY="211.0" prefHeight="40.0" prefWidth="647.0" promptText="Word Origin (ex: Middle English )" unFocusColor="#354f31">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXTextField>
+      <Label fx:id="labelWord" layoutX="63.0" layoutY="95.0" text="Word:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelPos" layoutX="64.0" layoutY="157.0" text="Parts of Speech:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelOrigin" layoutX="64.0" layoutY="220.0" text="Word Origin:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelDefinition" layoutX="63.0" layoutY="285.0" text="Definition:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Line endX="74.79998779296875" layoutX="437.0" layoutY="56.0" startX="-42.4000244140625" />
+   </children>
+</AnchorPane>

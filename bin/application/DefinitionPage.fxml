@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="907.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DefinitionPageController">
+   <children>
+      <Line endX="716.0" layoutX="145.0" layoutY="82.0" startX="-100.0" />
+      <Label fx:id="word" layoutX="45.0" layoutY="33.0" text="WordName">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="210.0" text="1">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="definition1" layoutX="63.0" layoutY="185.0" prefHeight="75.0" prefWidth="550.0" text="A application definition of a definition inside the Ducktionary application" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="origin1" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="613.0" layoutY="185.0" prefHeight="75.0" prefWidth="250.0" text="[Greek]" textFill="#7fcd8e" AnchorPane.leftAnchor="613.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="defnum2" layoutX="45.0" layoutY="320.0" text="2" AnchorPane.topAnchor="320.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="definition2" layoutX="63.0" layoutY="295.0" prefHeight="75.0" prefWidth="550.0" text="A application definition2 of a definition inside the Ducktionary application" textAlignment="JUSTIFY" AnchorPane.topAnchor="295.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="origin2" alignment="CENTER_RIGHT" layoutX="613.0" layoutY="295.0" prefHeight="75.0" prefWidth="250.0" text="[Rome]" textFill="#7fcd8e" AnchorPane.topAnchor="295.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="defRefreshButton" buttonType="RAISED" layoutX="587.0" layoutY="27.0" onAction="#defRefreshButtonGo" prefHeight="38.0" prefWidth="78.0" style="-fx-background-color: #7FCD8E;" text="Refresh" textFill="WHITE" visible="false">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Label fx:id="definition3" layoutX="63.0" layoutY="405.0" prefHeight="75.0" prefWidth="550.0" text="A application definition3 of a definition inside the Ducktionary application">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="defnum3" layoutX="45.0" layoutY="430.0" text="3">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="origin3" alignment="CENTER_RIGHT" layoutX="613.0" layoutY="405.0" prefHeight="75.0" prefWidth="250.0" text="[Latin]" textFill="#7fcd8e">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="107.0" prefHeight="26.0" prefWidth="127.0" text="Parts of Speech:" textFill="#ff9600">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Hyperlink fx:id="pos1" layoutX="50.0" layoutY="121.0" onAction="#onPos1Clicked" prefHeight="26.0" prefWidth="101.0" text="IN CAPS" textFill="#ff9600" underline="true">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Click to Expand" />
+         </tooltip>
+      </Hyperlink>
+      <Hyperlink fx:id="pos2" layoutX="50.0" layoutY="151.0" onAction="#onPos2Clicked" prefHeight="26.0" prefWidth="101.0" text="IN CAPS" textFill="#ff9600" underline="true">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Click to Expand" />
+         </tooltip>
+      </Hyperlink>
+      <JFXButton fx:id="defFavoriteButton" buttonType="RAISED" layoutX="784.0" layoutY="27.0" onAction="#defFavoriteButtonGo" prefHeight="38.0" prefWidth="78.0" style="-fx-background-color: #7FCD8E;" text="Favorite" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <tooltip>
+            <Tooltip text="Add to favorites" />
+         </tooltip>
+      </JFXButton>
+   </children>
+</AnchorPane>

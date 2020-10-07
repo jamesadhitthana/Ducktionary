@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="907.0" style="-fx-background-color: #fafafa;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CustomizePageController">
+   <children>
+      <Label fx:id="labelBig" layoutX="50.0" layoutY="23.0" prefHeight="49.0" prefWidth="104.0" text="Words">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="add" buttonType="RAISED" layoutX="63.0" layoutY="359.0" onAction="#addClick" prefHeight="39.0" prefWidth="302.0" style="-fx-background-color: #8AC249;" text="+ Add New" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <tooltip>
+            <Tooltip text="Add a new word to the dictionary" />
+         </tooltip></JFXButton>
+      <TableView fx:id="table" layoutX="414.0" layoutY="14.0" prefHeight="482.0" prefWidth="479.0">
+        <columns>
+          <TableColumn fx:id="wordCol" prefWidth="95.79998779296875" text="Word" />
+            <TableColumn fx:id="posCol" prefWidth="101.0" text="Parts of Speech" />
+            <TableColumn fx:id="originCol" prefWidth="54.5999755859375" text="Origin" />
+          <TableColumn fx:id="defCol" prefWidth="226.0" text="Definition" />
+        </columns>
+         <tooltip>
+            <Tooltip text="Double click on the word to open the definition page" />
+         </tooltip>
+      </TableView>
+      <JFXTextField fx:id="inputWord" focusColor="#00ff5e" layoutX="51.0" layoutY="133.0" onAction="#inputWordGo" prefHeight="39.0" prefWidth="233.0" promptText="Input word to add/remove here.." unFocusColor="#ff0077">
+         <tooltip>
+            <Tooltip text="Input word to add/remove here" />
+         </tooltip></JFXTextField>
+      <JFXButton fx:id="remove" buttonType="RAISED" layoutX="63.0" layoutY="411.0" onAction="#removeClick" prefHeight="39.0" prefWidth="302.0" style="-fx-background-color: #FF8570;" text="- Remove" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <tooltip>
+            <Tooltip text="Remove a word from the dictionary" />
+         </tooltip></JFXButton>
+      <Line endX="-22.399993896484375" layoutX="151.0" layoutY="62.0" startX="-100.0" />
+      <JFXButton fx:id="searchWord" layoutX="295.0" layoutY="133.0" onAction="#searchWord" prefHeight="39.0" prefWidth="112.0" style="-fx-background-color: #f4f4f4;" text="SEARCH WORDS">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Search the word to see it on the table on the right side" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Label layoutX="51.0" layoutY="172.0" opacity="0.38" prefHeight="73.0" prefWidth="243.0" text="Modify Ducktionary as you need! Search the word you want above to see it in the list" wrapText="true" />
+   </children>
+</AnchorPane>

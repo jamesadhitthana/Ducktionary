@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="907.0" style="-fx-background-color: #c6d8ba;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DebuggingPageController">
+   <children>
+      <Label layoutX="100.0" layoutY="29.0" text="Debugging Page (replaces title labels to test message passing)">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="debuggingTextField" layoutX="58.0" layoutY="125.0" prefHeight="129.0" prefWidth="245.0" promptText="put message" style="-fx-background-color: #ffffff;" />
+      <JFXButton fx:id="debuggingSendButton" buttonType="RAISED" layoutX="319.0" layoutY="125.0" onAction="#debuggingSendButtonGo" prefHeight="129.0" prefWidth="226.0" style="-fx-background-color: AFC471;" text="Save Label" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></JFXButton>
+      <Label fx:id="labelReplaceMe" layoutX="319.0" layoutY="75.0" text="ReplaceMe: &quot;debuggingLabelReplace&quot;">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="debuggingOpenDefButton" buttonType="RAISED" layoutX="588.0" layoutY="163.0" onAction="#debuggingOpenDefButtonGo" prefHeight="40.0" prefWidth="206.0" style="-fx-background-color: #FF9E99;" text="Modify Definition Page" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="modDashButton" buttonType="RAISED" layoutX="588.0" layoutY="105.0" onAction="#modDashButtonGo" prefHeight="40.0" prefWidth="206.0" style="-fx-background-color: #FF9E99;" text="Modify Dashboard" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="modSearchButton" buttonType="RAISED" layoutX="588.0" layoutY="227.0" onAction="#modSearchButtonGo" prefHeight="40.0" prefWidth="206.0" style="-fx-background-color: #FF9E99;" text="ModifySearch" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="modCustomizeButton" buttonType="RAISED" layoutX="588.0" layoutY="286.0" onAction="#modCustomizeButtonGo" prefHeight="40.0" prefWidth="206.0" style="-fx-background-color: #FF9E99;" text="Modify Customize" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="modHelpButton" buttonType="RAISED" layoutX="588.0" layoutY="346.0" onAction="#modHelpButtonGo" prefHeight="40.0" prefWidth="206.0" style="-fx-background-color: #FF9E99;" text="Modify Help" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="modOpenDefButton" buttonType="RAISED" layoutX="60.0" layoutY="306.0" onAction="#modOpenDefButtonGo" prefHeight="40.0" prefWidth="486.0" style="-fx-background-color: #FF9E99;" text="Open Definition Tab" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
