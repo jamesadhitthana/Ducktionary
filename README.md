@@ -82,7 +82,7 @@ Ducktionary is a user-friendly native desktop dictionary application made using 
 
 ### Notes:
 
-- Ducktionary was built for a university project and therefore we will not be liable for any loss or damage of any nature.
+- Ducktionary was created for a university project and therefore we will not be liable for any loss or damage of any nature.
 
 ## Built With
 
