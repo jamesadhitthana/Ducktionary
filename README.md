@@ -1,9 +1,8 @@
-<h1 align="center">Ducktionary</h1>
-<p align="center">
-<sup><b>Knowledge that quacks you up! </b></sup>
-</p>
-
-![todo-intro](cangeme)
+<div align="center">
+<img src="https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Ducktionary%20Source%20Code/src/application/images/justtheduck.png?token=AINQE24P52KQVWGE5ACO7A27Q2W2Q" alt="Ducktionary Icon" width="100" height="100">
+<h1 >Ducktionary</h1>
+<p ><sup><b>Knowledge that quacks you up! </b></sup></p>
+</div>
 
 # Introduction
 
@@ -17,27 +16,27 @@ Ducktionary is a user-friendly native desktop dictionary application made using 
 
 ### Installation (Windows):
 
-- [Download Ducktionary Installer](todo.exe)
+- [Download Ducktionary Installer](https://github.com/jamesadhitthana/Ducktionary/raw/main/DucktionarySetup.exe)
 
 ### User Manual:
 
-- [User Manual](todo.pdf)
+- [User Manual](https://github.com/jamesadhitthana/Ducktionary/raw/main/Documentation/User%20Manual/User%20Manual%20Ducktionary.pdf)
 
 ### Developer Manual:
 
-- [Developer/Program Manual](todo.pdf)
+- [Developer/Program Manual](https://github.com/jamesadhitthana/Ducktionary/raw/main/Documentation/Program%20Manual/Program%20Manual%20Ducktionary%20Final.pdf)
 
 ### Design Manual:
 
-- [Design Manual](todo.pdf)
+- [Design Manual](https://github.com/jamesadhitthana/Ducktionary/raw/main/Documentation/Design%20Manual/Design%20Manual%20Ducktionary.pdf)
 
 ### Testing And Pitch Deck Presentation:
 
-- [Testing and Presentation](todo.pdf)
+- [Testing and Presentation](https://github.com/jamesadhitthana/Ducktionary/raw/main/Documentation/Ducktionary%20Final%20Presentation.pdf)
 
 ### Documentation:
 
-- [Development Documentation](todo.pdf)
+- [Development Documentation](https://github.com/jamesadhitthana/Ducktionary/raw/main/Documentation/HCI%20-%20Literature%20Review%20and%20Work%20Divisions.pdf)
 
 ### Notes:
 
@@ -59,4 +58,4 @@ Ducktionary is a user-friendly native desktop dictionary application made using 
 - **Thompson D.Y.** - [thompsonlie](https://github.com/thompsonlie)
 - **Regy Ezananta**
 
-![todo-end](ender)
+![ducktionary-end-card](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Ducktionary%20Source%20Code/src/application/images/about%20us.jpg?token=AINQE27MYUK4B44L7UQKZJC7Q2WQE)
