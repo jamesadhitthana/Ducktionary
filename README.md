@@ -6,11 +6,57 @@
 
 # Introduction
 
-Ducktionary is a user-friendly native desktop dictionary application made using Java for PC. Nowadays, native desktop dictionary applications on PC have an outdated and confusing user interface. Therefore to combat that, Ducktionary is created with Material Design in mind utilizing JavaFX and JFoenix.
+Ducktionary is a user-friendly native desktop dictionary application made using Java for PC. Nowadays, native desktop dictionary applications on PC have an outdated and confusing user interface. Therefore to combat that, Ducktionary is created with Material Design in mind utilizing JavaFX and JFoenix. Ducktionary is also customizable! You can add your own words to your Ducktionary and make it your own.
 
 ### Features:
 
-![todo-poster](afafafafafa)
+#### Create an Account to Store your Own Customizable Dictionary Settings and Words
+
+![screenshot-todo](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/register-login.gif?token=AINQE2ZJ73ENFKMSNFGSMX27Q27CS)
+
+#### Dashboard
+
+![screenshot-profile](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/ducktour-profile.gif?token=AINQE24OUO6KBHDDHLOOZL27Q26XC)
+
+#### Quick Search
+
+![screenshot-todo](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/search.gif?token=AINQE23IUAHNJT3MZ7CMDJK7Q27HA)
+
+#### Smart Search
+
+![screenshot-smart-search](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/auto-fill%20search.gif?token=AINQE24AADXCXKDMC7LXAWS7Q26QO)
+
+#### Easy Search
+
+![screenshot-search](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/ducktour-search.gif?token=AINQE26FH7X2MYOWPXCC6GS7Q27BK)
+
+#### View Words by Categories
+
+![screenshot-listed-words](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/listed%20words.gif?token=AINQE23JYB5NB6SE7R63R7S7Q26YW)
+
+#### Smart Dashboard
+
+![screenshot-home](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/ducktour-home.gif?token=AINQE23VUQV2HPYCZJ6PHMK7Q2544)
+
+#### Customize Your Own Dictionary
+
+![screenshot-customize](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/ducktour-customize.gif?token=AINQE25NHPIECTXONHWBA7S7Q26TI)
+
+#### Add New Words
+
+![screenshot-add-new-words](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/add%20new%20words.gif?token=AINQE23R4YZUVKYM4C2XSVS7Q26O4)
+
+#### Remove Words Added Previously
+
+![screenshot-todo](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/remove%20words.gif?token=AINQE27YF7KU57EB6LOCVX27Q27GM)
+
+#### Complete Help and User Guides
+
+![screenshot-help](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/ducktour-help.gif?token=AINQE2YTI5AQIP3FWF5YT3C7Q26WG)
+
+
+
+
 
 # Getting Started
 
