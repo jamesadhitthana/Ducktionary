@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Ducktionary%20Source%20Code/src/application/images/justtheduck.png?token=AINQE24P52KQVWGE5ACO7A27Q2W2Q" alt="Ducktionary Icon" width="100" height="100">
+<img src="https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Ducktionary%20Source%20Code/src/application/images/justtheduck.png?" alt="Ducktionary Icon" width="100" height="100">
 <h1 >Ducktionary</h1>
 <p ><sup><b>Knowledge that quacks you up! </b></sup></p>
 </div>
@@ -12,47 +12,47 @@ Ducktionary is a user-friendly native desktop dictionary application made using 
 
 #### Create an Account to Store your Own Customizable Dictionary Settings and Words
 
-![screenshot-register](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/register-login.gif?token=AINQE2ZJ73ENFKMSNFGSMX27Q27CS)
+![screenshot-register](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/register-login.gif?)
 
 #### Dashboard
 
-![screenshot-profile](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/ducktour-profile.gif?token=AINQE24OUO6KBHDDHLOOZL27Q26XC)
+![screenshot-profile](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/ducktour-profile.gif?)
 
 #### Quick Search
 
-![screenshot-todo](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/search.gif?token=AINQE23IUAHNJT3MZ7CMDJK7Q27HA)
+![screenshot-todo](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/search.gif?)
 
 #### Smart Search
 
-![screenshot-smart-search](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/auto-fill%20search.gif?token=AINQE24AADXCXKDMC7LXAWS7Q26QO)
+![screenshot-smart-search](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/auto-fill%20search.gif?)
 
 #### Easy Search
 
-![screenshot-search](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/ducktour-search.gif?token=AINQE26FH7X2MYOWPXCC6GS7Q27BK)
+![screenshot-search](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/ducktour-search.gif?)
 
 #### View Words by Categories
 
-![screenshot-listed-words](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/listed%20words.gif?token=AINQE23JYB5NB6SE7R63R7S7Q26YW)
+![screenshot-listed-words](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/listed%20words.gif?)
 
 #### Smart Dashboard
 
-![screenshot-home](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/ducktour-home.gif?token=AINQE23VUQV2HPYCZJ6PHMK7Q2544)
+![screenshot-home](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/ducktour-home.gif?)
 
 #### Customize Your Own Dictionary
 
-![screenshot-customize](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/ducktour-customize.gif?token=AINQE25NHPIECTXONHWBA7S7Q26TI)
+![screenshot-customize](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/ducktour-customize.gif?)
 
 #### Add New Words
 
-![screenshot-add-new-words](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/add%20new%20words.gif?token=AINQE23R4YZUVKYM4C2XSVS7Q26O4)
+![screenshot-add-new-words](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/add%20new%20words.gif?)
 
 #### Remove Words Added Previously
 
-![screenshot-todo](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/remove%20words.gif?token=AINQE27YF7KU57EB6LOCVX27Q27GM)
+![screenshot-todo](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/remove%20words.gif?)
 
 #### Complete Help and User Guides
 
-![screenshot-help](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/ducktour-help.gif?token=AINQE2YTI5AQIP3FWF5YT3C7Q26WG)
+![screenshot-help](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Documentation/Screenshots/ducktour-help.gif?)
 
 # Getting Started
 
@@ -100,4 +100,4 @@ Ducktionary is a user-friendly native desktop dictionary application made using 
 - **Thompson D.Y.** - [thompsonlie](https://github.com/thompsonlie)
 - **Regy Ezananta**
 
-![ducktionary-end-card](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Ducktionary%20Source%20Code/src/application/images/about%20us.jpg?token=AINQE27MYUK4B44L7UQKZJC7Q2WQE)
+![ducktionary-end-card](https://raw.githubusercontent.com/jamesadhitthana/Ducktionary/main/Ducktionary%20Source%20Code/src/application/images/about%20us.jpg?)
